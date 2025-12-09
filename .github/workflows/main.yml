@@ -51,63 +51,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
 
----
-
-### Step 3: Name the File
-
-At the top, you'll see the filename. Make sure it says:
-```
-.github/workflows/deploy.yml
-```
-
----
-
-### Step 4: Commit the File
-
-1. Click the green **"Commit changes..."** button (top right)
-2. In the popup, click **"Commit changes"**
-
----
-
-### Step 5: Enable GitHub Pages
-
-1. Go to **Settings** tab (top menu)
-2. Click **Pages** (left sidebar)
-3. Under "Build and deployment" → Source: Select **"GitHub Actions"**
-
----
-
-### Step 6: Watch It Deploy
-
-1. Go back to **Actions** tab
-2. You should see your workflow running 🟡
-3. Wait 2-3 minutes until it turns ✅ green
-
----
-
-## 📷 Visual Guide
-```
-┌────────────────────────────────────────────────────┐
-│                                                    │
-│  1. Click "set up a workflow yourself"             │
-│                                                    │
-│  2. Paste the YAML code above                      │
-│                                                    │
-│  3. Filename: .github/workflows/deploy.yml         │
-│                                                    │
-│  4. Click [Commit changes...]                      │
-│                                                    │
-│  5. Settings → Pages → Source: GitHub Actions      │
-│                                                    │
-│  6. Actions tab → Watch it build ✅                │
-│                                                    │
-└────────────────────────────────────────────────────┘
-```
-
----
-
-After it's done, your site will be at:
+.
 ```
 https://naga508.github.io/ai-coaching-agent/
